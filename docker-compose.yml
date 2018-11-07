@@ -1,0 +1,10 @@
+version: '3'
+services:
+ web:
+   image: rev:0.1
+   restart: always
+   ports:
+     - 8081:80
+   volumes:
+     - ./viewer/library-anon/:/var/www/html/rev/viewer/library-anon/
+   tty: true
