@@ -1,7 +1,7 @@
 version: '3'
 services:
  web:
-   image: rev:0.1
+   image: rev:latest
    restart: always
    ports:
      - 8081:80
