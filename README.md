@@ -10,5 +10,6 @@ Project was initialized with the <a href="https://github.com/PolymerElements/pol
 
 # Installation
 
-This is the build files repo of the fnndsc rev viewer.
+This is the production version repo of the fnndsc `rev` viewer, containing a compiled snapshot of the viewer code.
+
 See [here](https://github.com/FNNDSC/fnndsc/tree/master/js/rev#installation) for installation and usage instructions.
