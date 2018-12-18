@@ -1,7 +1,7 @@
 {
   "name": "re-viewer",
   "authors": [
-    "FNNDSC Developpers"
+    "FNNDSC Developers"
   ],
   "license": "https://polymer.github.io/LICENSE.txt",
   "dependencies": {
@@ -24,7 +24,7 @@
     "vaadin-grid": "v4.0.0-alpha5",
     "iron-collapse": "PolymerElements/iron-collapse#^2.0.0",
     "three.js": "mrdoob/three.js#dev",
-    "ami": "fnndsc/ami#dev",
+    "ami": "fnndsc/ami#master",
     "paper-slider": "PolymerElements/paper-slider#^2.0.0",
     "paper-toggle-button": "PolymerElements/paper-toggle-button#^2.0.0",
     "paper-dropdown-menu": "PolymerElements/paper-dropdown-menu#^2.0.0",
@@ -41,7 +41,7 @@
     "wc-series-preview": "FNNDSC/wc-series-preview#master",
     "wc-periodic-logo": "FNNDSC/wc-periodic-logo#master",
     "wc-viewer-2d": "fnndsc/wc-viewer-2d#master",
-    "moment": "^2.22.2"
+    "moment": "^2.23.0"
   },
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#^6.0.0-prerelease.7"
@@ -49,6 +49,8 @@
   "private": true,
   "resolutions": {
     "paper-icon-button": "^2.2.0",
-    "chips-api": "master"
+    "chips-api": "master",
+    "moment": "^2.23.0",
+    "ami": "master"
   }
 }
